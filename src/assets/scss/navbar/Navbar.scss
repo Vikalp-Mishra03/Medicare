@@ -1,0 +1,97 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #e4e4e4;
+    height: 70px;
+
+    .img {
+        position: relative;
+
+        img {
+            width: 200px;
+        }
+
+        &::after {
+            position: absolute;
+            content: '';
+            height: 35px;
+            width: 2px;
+            background-color: #000;
+        }
+    }
+
+    .location {
+
+        .icons {
+            display: flex;
+            align-items: center;
+            color: gray;
+            font-size: 15px;
+        }
+
+        .place {
+            font-size: 20px;
+            font-weight: 600;
+            text-align: center;
+            color: #1c2466;
+
+        }
+    }
+
+    .input {
+        background-color: #fff;
+        padding: 2px;
+        border-radius: 20px;
+
+        .search-icon {
+            background: #f0da69;
+            font-size: 15px;
+            padding: 10px;
+            border-radius: 50%;
+        }
+
+        .inputs {
+
+            input {
+                background-color: transparent;
+                border: none;
+                width: 255px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .service {
+
+        .new {
+            font-size: 13px;
+            background-color: red;
+            color: #fff;
+            padding: 2px;
+            border-radius: 5px;
+
+        }
+    }
+
+    .offer {
+        font-size: 20px;
+        color: orangered;
+
+        svg {
+            font-size: 25px;
+        }
+    }
+
+    .cart {
+        font-size: 20px;
+
+        svg {
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.banner {
+    margin-top: 10px;
+    width: 1450px;
+    background-color: #252b61;
+    height: 85vh;
+    font-family: 'Roboto', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    position: relative;
+
+    .healthcare {
+        font-size: 250px;
+        font-weight: 900;
+        color: #dbebff;
+    }
+
+    .doctor-img {
+        img {
+            width: 450px;
+            position: absolute;
+            top: 30.1%;
+            left: 35%;
+        }
+    }
+
+    .para {
+        text-transform: uppercase;
+        font-size: 15px;
+        width: 20%;
+        padding-left: 65px;
+        position: absolute;
+        bottom: 50px;
+    }
+
+    .book {
+        padding-right: 10px;
+        margin-top: 185px;
+
+        .consultation {
+            background-color: #e7c2d4;
+            height: 50px;
+            width: 175px;
+            border-radius: 25px;
+        }
+
+        .arrow {}
+    }
+}
