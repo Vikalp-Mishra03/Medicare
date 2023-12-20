@@ -3,6 +3,7 @@
 
 @import '../scss/navbar/Navbar.scss';
 @import '../scss/banner/Banner.scss';
+@import '../scss/card/card.scss';
 
 
 
@@ -13,7 +14,7 @@
 
 body {
     background-color: #fff;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -30,6 +31,9 @@ body {
 
 .text1 {
     color: #1c2466;
+}
+.bc-text1 {
+    background-color: #1c2466 !important;
 }
 
 .text2 {
@@ -69,4 +73,17 @@ body {
 
 .slate{
     color: #dbebff;
+}
+
+.w-1450{
+    width: 1450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+.mt-1{
+    margin-top: 1rem;
 }
